@@ -551,7 +551,7 @@ background-color: #188ce8;
 
 /* Features */
 
-.hiden {
+.hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -568,20 +568,20 @@ background-color: #188ce8;
   padding-bottom: 0;
 }
 
-.features {
+.features__list {
   display: flex;
 }
 
-.features .item {
+.features__item {
   width: 270px;
   margin-left: 30px;
 }
 
-.features .item:nth-child(1) {
+.features__item:nth-child(1) {
   margin-left: 0;
 }
 
-.icon-features-bg {
+.features__thumb {
   width: 270px;
   padding: 25px 100px;
   margin-bottom: 30px;
@@ -589,15 +589,11 @@ background-color: #188ce8;
   border-radius: 4px;
 }
 
-.icon-features-bg > .icon {
+.features__icon {
   display: block;
 }
 
-.features .text {
-  color: var(--text-color);
-}
-
-.features .title {
+.features__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -605,28 +601,29 @@ background-color: #188ce8;
   text-transform: uppercase;
 }
 
-.features .text {
+.features__text {
   font-size: 14px;
   line-height: 1.71;
+  color: var(--text-color);
 }
 
 /* Works */
 
-.works {
+.works__list {
   display: flex;
 }
 
-.works .item {
+.works__item {
   position: relative;
   width: 370px;
   margin-left: 30px;
 }
 
-.works .item:nth-child(1) {
+.works__item:nth-child(1) {
   margin-left: 0;
 }
 
-.works .descr {
+.works__descr {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -641,18 +638,18 @@ background-color: #188ce8;
   background-color: rgba(47, 48, 58, 0.8);;
 }
 
-/* Team */
+/* Section Team */
 
-.section.team {
+.team--color {
   background-color: var(--third-background-color);
 }
 
-.team-list {
+.team__list {
   display: flex;
   text-align: center;
 }
 
-.team-list .item {
+.team__item {
   width: 270px;
   margin-left: 30px;
   text-align: center;
@@ -662,27 +659,23 @@ background-color: #188ce8;
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list .item:nth-child(1) {
+.team__item:nth-child(1) {
   margin-left: 0;
 }
 
-.section.team > .section-title {
-  margin-bottom: 50px;
-}
-
-.team-list .descr {
+.team__descr {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-list .name {
+.team__name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 
-.team-list .position {
+.team__position {
   margin-bottom: 16px;
 
   color: var(--text-color);
@@ -691,13 +684,15 @@ background-color: #188ce8;
   line-height: 1.19;
 }
 
-.descr .social-links {
+/* Social-list */
+
+.social-list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.social-links .icon-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -711,25 +706,25 @@ background-color: #188ce8;
   transition-timing-function: var(--transition-timing-function);
 }
 
-.icon-link:hover,
-.icon-link:focus {
+.social-list__link:hover,
+.social-list__link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
 
-.icon-link .icon {
+.social-list__icon {
   fill: currentColor;
 }
 
 /* Clients */
 
-.client-links {
+.clients-list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.client-link {
+.clients-list__link {
   display: block;
   width: 170px;
   padding: 16px 32px;
@@ -743,13 +738,13 @@ background-color: #188ce8;
 
 }
 
-.client-link:hover,
-.client-link:focus {
+.clients-list__link:hover,
+.clients-list__link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.client-link .icon {
+.clients-list__icon {
   display: block;
   fill: currentColor;
 }
@@ -850,12 +845,12 @@ background-color: #188ce8;
   color: #ffffff;
 }
 
-.social-footer .social-links {
+.social-list--footer {
   display: flex;
   gap: 10px;
 }
 
-.social-footer .icon-link {
+.social-list__link--footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -868,11 +863,6 @@ background-color: #188ce8;
   transition-property: background-color;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
-}
-
-.icon-link:hover,
-.icon-link:focus {
-  background-color: var(--accent-color);
 }
 
 /* Footer Subscription */
