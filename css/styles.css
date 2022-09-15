@@ -1,14 +1,14 @@
-html {
+/* html {
   box-sizing: border-box;
 }
-
-*,
+ */
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -21,29 +21,29 @@ p {
 
 img {
   display: block;
-}
+}  */
 
-:root {
+/* :root {
   --primary-text-color: #212121;
   --text-color: #757575;
   --accent-color: #2196f3;
   --primary-background-color: #ffffff;
   --secondary-background-color: #2f303a;
-  --third-background-color: #f5f5f5;
+  --third-background-color: #f5f5f5; */
   /* Transition settings*/
-  --transition-duration: 250ms;
+  /* --transition-duration: 250ms;
   --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
 
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
-}
+} */
 
-input, 
+/* input, 
 textarea {
   display: block;
   outline: transparent;
@@ -53,14 +53,14 @@ textarea {
   padding: 0;
   margin: 0;
   list-style: none;
-}
+} */
 
 /* Header */
 
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
-}
-.header-logo {
+} */
+/* .header-logo {
   padding-top: 24px;
   padding-bottom: 24px;
 
@@ -84,17 +84,17 @@ textarea {
 .header-logo:hover,
 .header-logo:focus {
   color: var(--accent-color);
-}
+} */
 
-.container {
+/* .container {
   margin: 0 auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 /* Site nav */
 
-.nav {
+/* .nav {
   display: flex;
   align-items: center;
 }
@@ -192,10 +192,10 @@ textarea {
 .contact:focus {
   color: var(--accent-color);
 }
-
+ */
 /* Hero */
 
-.hero-title {
+/* .hero-title {
   margin: 0 auto;
   margin-bottom: 30px;
   width: 696px;
@@ -227,11 +227,11 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+} */
 
 /* Hero button */
 
-.button {
+/* .button {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -255,11 +255,11 @@ textarea {
 .button:hover,
 .button:focus {
   background-color: #188ce8;
-}
+} */
 
 /* Modal */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   z-index: 10;
   top: 0;
@@ -322,11 +322,11 @@ textarea {
 
 .modal-btn-close:hover .icon {
   fill: var(--accent-color);
-}
+} */
 
 /* Modal forms */
 
-.registration-form {
+/* .registration-form {
   padding: 40px;
   text-align: left;
 }
@@ -436,10 +436,10 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 8px; */
 
   /* display: block; */
-  margin-bottom: 30px;
+  /* margin-bottom: 30px;
   text-align: center;
   font-weight: 400;
   font-size: 14px;
@@ -529,12 +529,12 @@ textarea {
 .agreement-btn:hover,
 .agreement-btn:focus {
 background-color: #188ce8;
-}
+} */
 
 
 /* Sections */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -547,11 +547,11 @@ background-color: #188ce8;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-}
+} */
 
 /* Features */
 
-.hidden {
+/* .hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -562,11 +562,11 @@ background-color: #188ce8;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.section.features {
+/* .section.features {
   padding-bottom: 0;
-}
+} */
 
 .features__list {
   display: flex;
