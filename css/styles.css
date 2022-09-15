@@ -568,7 +568,7 @@ background-color: #188ce8;
   padding-bottom: 0;
 } */
 
-.features__list {
+/* .features__list {
   display: flex;
 }
 
@@ -605,11 +605,11 @@ background-color: #188ce8;
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-color);
-}
+} */
 
 /* Works */
 
-.works__list {
+/* .works__list {
   display: flex;
 }
 
@@ -636,11 +636,11 @@ background-color: #188ce8;
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: rgba(47, 48, 58, 0.8);;
-}
+} */
 
 /* Section Team */
 
-.team--color {
+/* .team--color {
   background-color: var(--third-background-color);
 }
 
@@ -682,11 +682,11 @@ background-color: #188ce8;
 
   font-size: 16px;
   line-height: 1.19;
-}
+} */
 
 /* Social-list */
 
-.social-list {
+/* .social-list {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -715,10 +715,10 @@ background-color: #188ce8;
 .social-list__icon {
   fill: currentColor;
 }
-
+ */
 /* Clients */
 
-.clients-list {
+/* .clients-list {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -747,11 +747,11 @@ background-color: #188ce8;
 .clients-list__icon {
   display: block;
   fill: currentColor;
-}
+} */
 
 /* Footer */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--secondary-background-color);
@@ -822,15 +822,15 @@ background-color: #188ce8;
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
-}
+} */
 /* Social footer */
 
-.aligned {
+/* .aligned {
   display: flex;
   align-items: baseline;
-}
+} */
 
-.social-footer {
+/* .social-footer {
   width: 206px;
   margin-left: 70px;
   align-content: center;
@@ -863,11 +863,11 @@ background-color: #188ce8;
   transition-property: background-color;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
-}
+} */
 
 /* Footer Subscription */
 
-.subscription {
+/* .subscription {
   margin-left: 93px;
 }
 
@@ -904,9 +904,9 @@ background-color: #188ce8;
 
 .subscription-input:focus {
   border-color: var(--accent-color);
-}
+}*/
 
-.subscription-btn {
+/* .subscription-btn {
   position: relative;
   display: block;
   width: 200px;
@@ -927,10 +927,10 @@ background-color: #188ce8;
   transition-property: background-color;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
+} */
 
-}
 
-.subscription-icon {
+/* .subscription-icon {
   position: absolute;
   top: 13px;
   right: 28px;
@@ -939,15 +939,15 @@ background-color: #188ce8;
 .subscription-btn:hover,
 .subscription-btn:focus {
   background-color: #188ce8;
-}
-
+} 
+ */
 /* Page Portfolio.html */
 
-.section.portfolio {
+/* .section.portfolio {
   background-color: var(--primary-background-color);
-}
+} */
 
-.filters {
+/* .filters {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -985,9 +985,9 @@ background-color: #188ce8;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
-}
+} */
 
-.card-thumd {
+/* .card-thumd {
   position: relative;
   overflow: hidden;
 }
@@ -1079,4 +1079,4 @@ background-color: #188ce8;
 .card-link:hover,
 .card-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
